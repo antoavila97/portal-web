@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portal comunitario de Puerto Varador (Beni, Bolivia): reservas de actividades turísticas, noticias comunitarias y gestión local."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Puerto Varador | Portal Comunitario</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Registro del formulario para Netlify Forms (el formulario visible vive en React) -->
+    <form name="sugerencias" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="nombre" />
+      <select name="tipo">
+        <option>Opinión</option>
+        <option>Mejora</option>
+        <option>Reporte de problema</option>
+      </select>
+      <textarea name="mensaje"></textarea>
+      <input type="file" name="captura" />
+    </form>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
