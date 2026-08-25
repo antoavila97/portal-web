@@ -15,7 +15,7 @@ Portal comunitario de comercialización y gestión turística para la comunidad 
 ```
 src/
 ├── components/   # Layout, Reveal, PageTransition, Spinner, secciones (Cómo llegar, Reseña Histórica)
-├── pages/        # HomePage, ActividadesPage, NewsPage, LoginRegisterPage
+├── pages/        # HomePage, ActividadesPage, NewsPage, LoginRegisterPage, SugerenciasPage
 ├── contexts/     # (reservado para contexto de autenticación)
 ├── utils/
 │   └── images.ts # URLs centralizadas de todas las imágenes del portal
@@ -26,6 +26,15 @@ src/
 ## Reemplazar imágenes por fotos reales
 
 Las imágenes actuales son placeholders de stock. Cuando existan fotos reales de la comunidad, editar **solo** `src/utils/images.ts`: cada variable (`heroBannerImage`, `actividadBoteImage`, `noticiaFiestaImage`, etc.) apunta a la imagen que se usa en el portal. Los componentes no contienen rutas hardcodeadas.
+
+## Despliegue
+
+El sitio se despliega automáticamente en Netlify: cada `git push` a `main` dispara el build
+(`npm run build`) y publica la carpeta `dist`. No es necesario subir archivos manualmente.
+
+- Producción: https://puerto-varador.netlify.app
+- Formulario de sugerencias gestionado con [Netlify Forms](https://docs.netlify.com/forms/setup/):
+  registrado vía formulario oculto en `index.html` y enviado desde `SugerenciasPage.tsx`.
 
 ## Comandos
 
