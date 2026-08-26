@@ -18,7 +18,7 @@ const actividades = [
     cupo_maximo: 8,
     fecha: 'Diario',
     imagen: actividadBoteImage,
-    whatsapp: '59170000001',
+    whatsapp: '59172821225',
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const actividades = [
     cupo_maximo: 30,
     fecha: 'Viernes y Sábado por la noche',
     imagen: actividadCenaImage,
-    whatsapp: '59170000002',
+    whatsapp: '59172821225',
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const actividades = [
     cupo_maximo: 15,
     fecha: 'Martes, Jueves y Domingo',
     imagen: actividadTourImage,
-    whatsapp: '59170000003',
+    whatsapp: '59172821225',
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const actividades = [
     cupo_maximo: 10,
     fecha: 'Sábados por la mañana',
     imagen: actividadAvesImage,
-    whatsapp: '59170000004',
+    whatsapp: '59172821225',
   },
 ]
 
