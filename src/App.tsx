@@ -5,7 +5,6 @@ import PageTransition from './components/PageTransition'
 import HomePage from './pages/HomePage'
 import ActividadesPage from './pages/ActividadesPage'
 import NewsPage from './pages/NewsPage'
-import LoginRegisterPage from './pages/LoginRegisterPage'
 import SugerenciasPage from './pages/SugerenciasPage'
 
 function NotFoundPage() {
@@ -60,14 +59,6 @@ function AnimatedRoutes() {
           element={
             <PageTransition>
               <SugerenciasPage />
-            </PageTransition>
-          }
-        />
-        <Route
-          path="/login"
-          element={
-            <PageTransition>
-              <LoginRegisterPage />
             </PageTransition>
           }
         />

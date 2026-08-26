@@ -3,8 +3,6 @@ const unsplash = (id: string, width = 800) =>
 
 export const heroBannerImage = '/images/hero.webp'
 
-export const loginFondoImage = '/images/login.webp'
-
 export type GaleriaItem = { src: string; label: string }
 
 export const galeriaImages: GaleriaItem[] = [

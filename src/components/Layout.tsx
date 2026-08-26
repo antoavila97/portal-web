@@ -7,7 +7,6 @@ const links = [
   { to: '/actividades', label: 'Actividades' },
   { to: '/noticias', label: 'Noticias' },
   { to: '/sugerencias', label: 'Sugerencias' },
-  { to: '/login', label: 'Mi Cuenta' },
 ]
 
 const desktopLinkClass = ({ isActive }: { isActive: boolean }) =>

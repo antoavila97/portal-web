@@ -15,7 +15,7 @@ const ofrecemos = [
 
 const porqueUnirse = [
   'Contribuir al desarrollo socio-productivo',
-  'Acceder a reservas anticipadas',
+  'Contactar directamente por WhatsApp',
   'Formar parte de una comunidad tecnológica',
   'Apoyar al turismo local',
 ]
